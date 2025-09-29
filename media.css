@@ -1,0 +1,75 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap:15px;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    
+    .logo{
+        padding: 5px;
+    }
+    .headerAddress{
+       padding: 10px;
+        
+    }
+    .headerAddress{
+        font-size: 10px;
+    }
+    .saleitem{
+        height: 45px;
+    }
+    .headerAddress h3{
+        font-size: 15px;
+    }
+    .searchbox button{
+        padding: 10px;
+    }
+    .headerBtn{
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        margin-right: 0px;
+        justify-content: center;
+        bottom: 0px;
+    }
+    .bannersection{
+        display: none;
+    }
+    .orderBanner{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .categotyitem{
+        flex-basis: 25%;
+    }
+    .productitems{
+        
+    }
+   .productsection{
+     padding: 30px 10px;
+   }
+   footer{
+    padding-top: 0px;
+   }
+   .footermidrow1{
+    flex-direction: column;
+    padding: 10px;
+   }
+   .footermidrow3 {
+     padding:0px 10px;
+   }
+   .footermidrow3 p{
+    padding:0px 10px;
+    
+   }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+    .main h1{
+        color: rgb(69, 42, 165);
+        
+    }
+}
